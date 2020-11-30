@@ -1,0 +1,9 @@
+PUT http://localhost:3002/api/blogs/5fb2566b9439cc0640dc24e5
+Content-Type: application/json
+
+{
+    "title" : "Fairy highlight",
+    "author" : "kilo",
+    "url" : "https://www.adobe.com/downloads/",
+    "likes" : 33
+}

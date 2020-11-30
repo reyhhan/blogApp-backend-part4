@@ -1,0 +1,10 @@
+POST http://localhost:3002/api/blogs
+Content-Type: application/json 
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRyZWUiLCJpZCI6IjVmYzQ2MWQ2M2JjMDEzM2I0MDM2ZjFiOSIsImlhdCI6MTYwNjcyNTY2Nn0.ojrbTniaK9rEo4f-MZ02Vljr2SUnSU7dk4kqJUhPtt0
+
+{
+    "title" : "AAA",
+    "author" : "GUH",
+    "url" : "https://www.adobe.com/downloads/",
+    "likes" : 9
+}
